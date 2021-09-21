@@ -1,7 +1,20 @@
 from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse("TESTING")
+    return HttpResponse("Home")
 
-def about(request):
-    return HttpResponse("TESTING 2")
+def removepunc(request):
+    return HttpResponse("remove punc")
+
+def capfirst(request):
+    return HttpResponse("capitalize first")
+
+def newlineremove(request):
+    return HttpResponse("capitalize first")
+
+
+def spaceremove(request):
+    return HttpResponse("space remover")
+
+def charcount(request):
+    return HttpResponse("charcount ")
